@@ -1,0 +1,256 @@
+* {
+  margin: 0;
+  padding: 0;
+
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+
+/*---- Header Section ----*/
+.header {
+  display: inline-grid;
+
+  justify-self: center;
+
+  margin-top: 1%;
+  grid-template-columns: 2fr 3fr 2fr;
+
+  
+  width: 100vw;
+  
+  gap: 10%;
+
+
+}
+
+.img1, .img2, .img3 {
+  justify-self: center;
+  align-self: center;
+
+
+}
+
+.img1, .img3 {
+  max-width: 60%;
+
+}
+
+.img2 {
+  margin-top: 2%;
+  max-width: 80%;
+  margin-left: 40%;
+  margin-right: 40%;
+
+}
+
+/*---- End Of Header Section ----*/
+
+/*---- Start of Dog Image Section ----*/
+
+
+.likedDis {
+  display: none;
+  position: absolute;
+  margin-left: 55px;
+  margin-top: 45px;
+
+}
+
+.likedDis img {
+
+  margin-top: 30px;
+  max-width: 150px;
+  transform: rotate(-30deg);
+
+}
+
+.dis {
+  display: none;
+  position: absolute;
+  margin-left: 55px;
+  margin-top: 45px;
+}
+
+.dis img {
+
+  margin-top: 30px;
+  max-width: 150px;
+  transform: rotate(-30deg);
+
+}
+section {
+    display: flex;
+    justify-content: center;
+}
+.dogPictures {
+  margin-left: 10%;
+  margin-top: 8%;
+  
+  
+
+
+}
+
+
+.dogPictures img {
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.9) -11.44%, rgba(0, 0, 0, 0) 39.97%);
+  border-radius: 15px;
+  
+  width: 90%;
+
+  grid-column: 2 / 19;
+  grid-row: 1/-1;
+
+
+}
+
+
+.dogPictures h1 {
+  font-size: 30px;
+  margin-bottom: 5%;
+  color: white;
+  grid-row: 11;
+  grid-column: 3/11;
+  justify-self: center;
+  margin-top: -30%;
+  font-family: 'Poppins';
+  margin-left: 5%;
+
+
+}
+
+.dogPictures h2 {
+  font-size: 15px;
+  font-weight: 200;
+  color: white;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  margin-left: 8%;
+ 
+  grid-row: 12;
+  grid-column: 3/11;
+  justify-self: start;
+  align-self: flex-end;
+
+}
+
+
+/*---- End of Dog Image Section ----*/
+
+
+/*---- Start of Like Dislike Section ----*/
+.acceptReject {
+  display: flex;
+  justify-content: space-evenly;
+
+  margin-top: 15%;
+  margin-bottom: 5%;
+}
+
+.acceptReject img {
+  width: 50px;
+  height: 50px;
+}
+
+.acceptReject button {
+  width: 100px;
+  height: 100px;
+  background: #FFFFFF;
+  box-shadow: 0px 10px 20px #E9E9EA;
+  border-radius: 50%;
+  border: none;
+}
+
+.likeButton {
+  transition-duration: 0.4s;
+  transition: transform 1s;
+}
+
+.likeButton:hover {
+  background-color: #DBFFF4;
+  transform: scale(1.1);
+}
+
+.dislikeButton {
+  transition-duration: 0.4s;
+  transition: transform 1s;
+}
+
+.dislikeButton:hover {
+  background-color: #FFE7EF;
+  transform: scale(1.1);
+}
+
+
+/*---- End of Like Dislike Section ----*/
+
+
+@media only screen and (min-width: 500px) {
+    .header {
+       
+        display: flex;
+        justify-content: center;
+        width: 500px;
+       margin-left: 45%;
+       
+       
+    }
+    section {
+        display: flex;
+        justify-content: center;
+        margin-left: -10%;
+        margin-top: -8%;
+    }
+    .dogPictures h1 {
+        font-size: 120px;
+    }
+    .dogPictures h2 {
+        font-size: 50px;
+    }
+
+    .acceptReject {
+        width: 40%;
+        margin-left: 29.5%;
+        margin-top: 3%;
+    }
+
+    .likedDis {
+        display: none;
+        position: absolute;
+        margin-left: 35%;
+        margin-top: 5%;
+      
+      }
+      
+      .likedDis img {
+      
+        margin-top: 80%;
+        margin-left: 100%;
+        max-width: 350px;
+        transform: rotate(-30deg);
+      
+      }
+      
+      .dis {
+        margin-left: 35%;
+        margin-top: 5%;
+        display: none;
+        position: absolute;
+        
+      }
+      
+      .dis img {
+        margin-top: 80%;
+        margin-left: 100%;
+       
+        max-width: 350px;
+        transform: rotate(-30deg);
+      
+      }
+    
+}
