@@ -1,0 +1,236 @@
+* {
+    font-family: Smythe;
+}
+
+body {
+    margin: 0;
+   
+} 
+.row div {
+    border: 1px solid silver;
+}
+header {
+    background-image: url(https://i.pinimg.com/originals/5c/4f/87/5c4f870fc39a0500e242f83692b60434.jpg);
+    background-position: 25% 75%;;
+    height: 100px;
+    box-shadow: 10px 10px 8px #888888;
+}
+/*CSS for Header */
+.header-text {
+   display: flex;
+   justify-content: center;
+   flex-direction: column;
+   align-items: center;
+   color: white;
+   margin-left: -25%;
+   
+
+   
+  
+  
+ 
+    
+}
+
+/*CSS for products */
+.container-items {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.items {
+    padding: 30px;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    border-bottom: 1px solid #D2D2D2;
+    width: 400px;
+    
+}
+.items img {
+    margin-left: -15%;
+    margin-right: 10%;
+}
+.description {
+
+
+    width: 500px;
+}
+.items button {
+    font-family:Arial, Helvetica, sans-serif;
+    position: absolute;
+    right: 35%;
+    display: inline-block;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+    align-items: center;
+    line-height: 10%;
+    
+  
+    
+    
+    width: 40px;
+    height: 40px;
+    margin-top: 50px;
+    margin-left: 50px;
+    border-radius: 40px;
+    font-size: 20px;
+    border: 1.5px solid #DEDEDE;
+    transition-duration: 0.4s;
+}
+
+.testbtn {
+    display: flex;
+    text-align: center;
+    position: relative;
+    
+
+}
+.items button:hover {
+    background-color: #666;
+   
+}
+.order-test {
+    display: flex;
+    justify-content: center;
+}
+.your-order {
+    display: flex;
+    width: 400px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.ordered-item {
+    display: flex;
+    width: 400px;
+    justify-content: space-between;
+  
+}
+
+.ordered-item p {
+    font-size: 20px;
+    font-weight: 400px;
+}
+.item-storage{
+    border-bottom: 2px solid #393333;
+}
+
+.total {
+    display: flex;
+    justify-content: space-between;
+    width: 400px;
+}
+
+.checkoutbtn {
+    margin-bottom: 20px;
+   
+}
+.checkoutbtn button {
+    width: 150px;
+    height: 50px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    transition-duration: 0.4s;
+    background-color: #666;
+    color: white;
+    box-shadow: 10px 10px 8px #888888;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+}
+.checkoutbtn button:hover {
+    transform: scale(1.5);
+    background-color: #393333;
+    color: white;
+}
+
+.itemcontainer1 {
+    display: flex;
+    justify-content: center;
+}
+
+.removebtn {
+    display: inline-block;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+   height: 22px;
+   margin-left: 15px;
+   margin-top: 5px;
+   
+   border-radius: 20px;
+   border: 1.5px solid #DEDEDE;
+   transition-duration: 0.4s;
+}
+
+.removebtn:hover {
+    background-color: red;
+}
+
+.orderpopup {
+    display: none;
+    position: fixed;
+    right: 0;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    height: 420px;
+    width: 350px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 6px 2px #666;
+    background-color: #212529;
+    color: whitesmoke;
+    
+}
+
+.popupinner {
+    width: 290px;
+    margin: 0 auto;
+    margin-top: 30%;
+    align-items: center;
+    text-align: center;
+  
+}
+
+.popupinner h1 {
+    font-size: 35px;
+}
+
+
+.modal-choice-btns {
+    margin-top: 10px;
+    padding: 8px 16px;
+    
+    display: flex;
+    justify-content: center;
+}
+
+.modal-choice-btns button {
+    margin: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 5px;
+}
+
+.close-modal-btn-container {
+    position: absolute;
+    top: 2%;
+    left: 90%;
+}
+
+.modal-close-btn {
+    font-size: 22px;
+    font-weight: bold;
+    background-color: transparent;
+    border: 1px solid transparent;
+    color: whitesmoke;
+  }
+
+  .modal-close-btn:hover,
+.modal-close-btn:active{
+    color: red;
+    cursor: pointer;
+}

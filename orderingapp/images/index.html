@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Moja stran</title>
+        <link href="https://fonts.googleapis.com/css?family=Blinker:400,700|Source+Sans+Pro&display=swap" rel="stylesheet">
+        <meta charset="utf-8"> 
+        <meta http-equiv="X-UA-Compatible" content="IE=edge"> 
+        
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+    </head>
+    <body>
+    <h1>Vnesite svojo višino v metrih</h1>
+    <input type="number" id="height">
+    <h1>Vnesite svojo težo v kilogrmaih</h1>
+   
+    
+    <input type="number" id="weight">
+    
+    <h2 id="bmi"></h2>
+    <button id="get" onclick="test()">Izračunaj BMI</button>
+
+    <script src="index.js"></script>
+       <script>
+        const bmi = document.getElementById("bmi")
+
+
+function test() {
+    const height = document.getElementById("height").value
+    const weight =  document.getElementById("weight").value
+    bmi.innerHTML = "Vaš BMI je " + (weight / (height * 2)).toFixed()
+}
+       </script>
+</html>
