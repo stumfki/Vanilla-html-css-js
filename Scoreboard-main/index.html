@@ -1,0 +1,51 @@
+<html>
+    <head><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+        <link rel="stylesheet" href="index.css">
+        <link href="http://fonts.cdnfonts.com/css/60s-scoreboard" rel="stylesheet">
+                
+    </head>
+    <body>
+        <div class="container">
+            <div>
+                <h3>HOME</h3>
+                <div class="tablescore">
+                    <h2 id="team1">0</h2>>
+                </div>
+                <div class="score">
+                    <button id="count1" onclick="inc1()">+1</button>
+                    <button id="count2" onclick="inc2()">+2</button>
+                    <button id="count3" onclick="inc3()">+3</button>
+                </div>
+                <div class="foulss"><h2 id="team1foul">0</h2></div>
+                
+                <div class="fouls">
+                    
+                    <button id="foul1" onclick="homefaul()">Home Faul</button>
+                </div>
+            </div>
+            <div>
+                <h3>AWAY</h3>
+                <div class="tablescore">
+                    <h2 id="team2">0</h2>>
+                </div>
+                <div class="score">
+                    <button id="count1" onclick="tinc1()">+1</button>
+                    <button id="count2" onclick="tinc2()">+2</button>
+                    <button id="count3" onclick="tinc3()">+3</button>
+                </div>
+                <div class="foulss"><h2 id="team2foul">0</h2></div>
+                
+                 <div class="fouls">
+                    
+                    <button id="foul2" onclick="homefaul2()">Guest Faul</button>
+                </div>
+            </div>
+            
+        </div>
+        <div class="reset">
+            <button id="resetgame" onclick="resetgame()">Reset</button>
+           
+        </div>
+        <script src="index.js"></script>
+    </body>
+</html>

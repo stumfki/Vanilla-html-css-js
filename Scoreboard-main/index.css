@@ -1,0 +1,96 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+h2 {
+    color: red;
+}
+h3 {
+    color: white;
+    font-size: 50px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-top: -8%;
+}
+body {
+    font-family: sans-serif;
+    background-color: #1B244A;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 10%;
+}
+.tablescore {
+    background-color: black;
+    text-align: center;
+    border-radius: 5px;
+    
+    
+    
+    
+}
+
+.tablescore h2 {
+    font-size: 80px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    padding-top: 8%;
+    
+    font-family: '60s Scoreboard', sans-serif;
+    
+   
+}
+
+button {
+    font-size: 30px;
+    background-color: #1B244A;
+    border-color: #9AABD8;
+    border-radius: 5px;
+    color: #9AABD8;
+    padding: 15px;
+    box-shadow: 5px 10px black;
+}
+
+.foulss h2 {
+    color: white;
+    display: flex;
+    justify-content: center;
+    margin-top: 5%;
+    
+    
+}
+
+.score {
+    margin-top: 11px;
+    display: flex;
+    justify-content: space-between;
+    border-color: white;
+    
+}
+.fouls button {
+    display: flex;
+    justify-content: center;
+
+    margin: 20px;
+}
+
+.fouls h2 {
+    color: white;
+    display: flex;
+    margin-top: 5%;
+    justify-content: center;
+}
+
+.fouls {
+    margin-top: -5%;
+}
+
+.reset {
+    display: flex;
+    justify-content: center;
+}
+
